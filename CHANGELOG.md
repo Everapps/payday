@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.6 (2018-11-28)
+
+* Bugfix: Resolved issue where BigDecimal in ruby 2.4 no longer accepts blank or nil values
+
 ## 1.1.4 (2015-05-29)
 
 * Bumped money gem to 6.5 (was 6.1.1)
