@@ -31,7 +31,7 @@ module Payday
 
     # Shipping rate
     def shipping_rate=(value)
-      @tax_rate = BigDecimal.new(value.nil? ? 0 : value.to_s)
+      @shipping_rate = BigDecimal.new(value.nil? ? 0 : value.to_s)
     end
   end
 end
